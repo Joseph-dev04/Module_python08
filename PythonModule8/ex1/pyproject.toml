@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "matrix-loader"
+version = "0.1.0"
+description = "Matrix data analysis tool"
+authors = ["you"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "*"
+numpy = "*"
+matplotlib = "*"
+requests = "*"
+
+[tool.poetry.group.dev.dependencies]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
